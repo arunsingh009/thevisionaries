@@ -14,8 +14,12 @@
 </head>
 
 <body>
+ 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">CO-19</a>
+    <!-- <a class="navbar-brand" href="#">
+      <img src="my logo.png" width="30" height="40" class="d-inline-block align-top nc" alt="my logo">coder
+    </a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,16 +28,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="/know.html">Know More </a>
-        </li>
-        
-        
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Hospital Status</a>
+          <a class="nav-link" href="know.html">Know More</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">Portal</a>
         </li>
 
       </ul>
@@ -47,6 +52,13 @@
       <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">Sign UP</button>
     </div>
   </nav>
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>Important!</strong> Check our Portal to get all Important information of requirements.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
   <!-- login Modal -->
   <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -58,7 +70,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form name="login" netlify>
+          <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -115,7 +127,7 @@
     </div>
   </div>
   <!-- crausal -->
-  <div id="carouselExampleCaptions home" class="carousel slide carousel-fade" data-ride="carousel">
+  <div id="carouselExampleCaptions home" class="carousel slide carousel-fade my-0" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
